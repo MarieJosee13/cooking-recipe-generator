@@ -1,0 +1,91 @@
+body {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url("../media/framed-lemons.jpg");
+  background-repeat: no-repeat;
+  width: 95vw;
+  height: 90vh;
+  background-size: cover;
+  background-position: center top;
+  overflow-y: hidden;
+}
+
+.container {
+  margin: 120px auto;
+  margin-bottom: 0;
+  max-width: 900px;
+  max-height: 75vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: #ffffffa7;
+  border-radius: 15px;
+  padding: 10px 10px 40px 10px;
+}
+
+a {
+  color: #76453b;
+  font-family: "Lora", serif;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.5;
+  color: #272044;
+  text-align: center;
+  font-family: "Lora", serif;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+form {
+  padding: 30px;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.instructions {
+  padding: 16px;
+  border: 1px solid rgba(39, 33, 66, 0.5);
+  width: 90%;
+  font-size: 16px;
+  border-radius: 50px;
+  line-height: 20px;
+}
+
+.form-button {
+  margin-left: 10px;
+  background-color: #304d30;
+  color: #fff;
+  border: none;
+  width: 150px;
+  font-size: 16px;
+  border-radius: 50px;
+  padding: 14px 24px;
+}
+
+.recipes {
+  font-size: 16px;
+  background-color: #43766c54;
+  padding: 20px;
+  line-height: 2;
+  border-left: 3px solid #304d30;
+  box-shadow: 0 20px 60px rgba(65, 50, 100, 0.08);
+  font-family: "Lora", serif;
+}
+
+footer {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 30px;
+}
