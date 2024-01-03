@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-  margin: 120px auto;
+  margin: 100px auto;
   margin-bottom: 0;
   max-width: 900px;
   max-height: 75vh;
@@ -23,7 +23,7 @@ body {
   overflow-x: hidden;
   background-color: #ffffffa7;
   border-radius: 15px;
-  padding: 10px 10px 40px 10px;
+  padding: 10px 20px 40px 20px;
 }
 
 a {
@@ -37,7 +37,7 @@ a:hover {
 
 h1 {
   font-weight: 800;
-  font-size: 36px;
+  font-size: 38px;
   line-height: 1.5;
   color: #272044;
   text-align: center;
@@ -76,16 +76,22 @@ form {
 
 .recipes {
   font-size: 16px;
-  background-color: #43766c54;
+  color: #272044;
+  background-image: linear-gradient(
+    rgb(180, 187, 143, 1),
+    rgb(159, 159, 81, 0.6),
+    rgb(159, 159, 81, 0.3)
+  );
   padding: 20px;
+  margin-bottom: 20px;
   line-height: 2;
   border-left: 3px solid #304d30;
-  box-shadow: 0 20px 60px rgba(65, 50, 100, 0.08);
   font-family: "Lora", serif;
+  border-radius: 0 15px 15px 0;
 }
 
 footer {
   text-align: center;
   font-size: 15px;
-  margin-top: 30px;
+  margin-top: 10px;
 }
