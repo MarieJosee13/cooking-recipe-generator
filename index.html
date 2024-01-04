@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="src/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&display=swap"
       rel="stylesheet"
@@ -18,7 +19,7 @@
         <h1>AI Cooking Recipe Generator</h1>
       </header>
       <main>
-        <form>
+        <form id="cooking-generator-form">
           <input
             type="text"
             placeholder="Enter the main ingredient or cultural food for your recipe"
@@ -29,53 +30,21 @@
           />
           <input type="submit" class="form-button" />
         </form>
-        <div class="scroll-container">
-        <div class="recipes">
-          <h3>Pouding chômeur traditionnel</h3>
-         <p>ingredients:
-          <br>
-150 g (1 tasse) de farine tout usage non blanchie
-<br>
-7,5 ml (1 1/2 c. à thé) de poudre à pâte
-<br>
-105 g (1/2 tasse) de sucre
-<br>
-75 g (1/3 tasse) de beurre non salé, ramolli
-<br>
-1 oeuf
-<br>
-60 ml (1/4 tasse) de lait
-<br>
-2,5 ml (1/2 c. à thé) d'extrait de vanille
-<br>
-420 g (2 tasses) de cassonade
-<br>
-250 ml (1 tasse) d'eau
-<br>
-125 ml (1/2 tasse) de crème 15 % à cuisson
-         </p>
-         <p>Instructions:
-          <br>
-          Placer la grille au centre du four. Préchauffer le four à 200 °C (400 °F). Beurrer un moule en verre carré de 20 cm (8 po) et de 5 cm (2 po) de hauteur.
-<br>
-Dans un bol, mélanger la farine et la poudre à pâte.
-<br>
-Dans un autre bol, crémer le sucre et le beurre au batteur électrique. Ajouter l’œuf, le lait et la vanille. Incorporer les ingrédients secs sans trop travailler la pâte.
-<br>
-Dans le moule, mélanger au fouet la cassonade, l'eau et la crème. À l’aide d’une cuillère, répartir délicatement la pâte sur le sirop. Cuire au four 35 minutes ou jusqu'à ce qu'un cure-dents inséré au centre de la pâte en ressorte propre. Laisser reposer 15 minutes avant de servir.
-         </p>
+
+        <div class="recipes" id="recipe-container">
+          <h3 id="recipe-header"></h3>
+          <p id="recipe-description"></p>
         </div>
       </main>
-      </div>
-      <footer>
-        This project was coded by Marie-Josée Dubé & is open-sourced
-        <a
-          href="https://github.com/MarieJosee13/cooking-recipe-generator"
-          target="_blank"
-          >on GitHub</a
-        >
-      </footer>
     </div>
-    <script src="src/index.js"></script>
+    <footer>
+      This project was coded by Marie-Josée Dubé & is open-sourced
+      <a
+        href="https://github.com/MarieJosee13/cooking-recipe-generator"
+        target="_blank"
+        >on GitHub</a
+      >
+    </footer>
+    <script src="./src/index.js"></script>
   </body>
 </html>
