@@ -7,16 +7,16 @@ body {
     ),
     url("../media/framed-lemons.jpg");
   background-repeat: no-repeat;
-  width: 95vw;
-  height: 90vh;
   background-size: cover;
   background-position: center top;
+  height: 100vh;
   overflow-y: hidden;
+  width: 97vw;
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
   background-color: #ffffffac;
+  width: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -24,14 +24,14 @@ body {
 }
 
 .container {
+  background-color: #ffffffa7;
+  border-radius: 15px;
   margin: 100px auto;
   margin-bottom: 0;
   max-width: 900px;
   max-height: 75vh;
   overflow-y: auto;
   overflow-x: hidden;
-  background-color: #ffffffa7;
-  border-radius: 15px;
   padding: 10px 20px 40px 20px;
 }
 
@@ -45,12 +45,12 @@ a:hover {
 }
 
 h1 {
+  color: #272044;
   font-weight: 800;
+  font-family: "Lora", serif;
   font-size: 38px;
   line-height: 1.5;
-  color: #272044;
   text-align: center;
-  font-family: "Lora", serif;
 }
 
 header {
@@ -58,39 +58,39 @@ header {
 }
 
 form {
-  padding: 30px 30px 0 30px;
   display: flex;
+  padding: 30px 30px 0 30px;
 }
 
 .hint {
-  padding: 0 0 30px 35px;
   margin-bottom: 30px;
+  padding: 0 0 30px 35px;
 }
 
 .instructions {
   padding: 16px;
   border: 1px solid rgba(39, 33, 66, 0.5);
-  width: 90%;
-  font-size: 16px;
   border-radius: 50px;
+  font-size: 16px;
   line-height: 20px;
+  width: 90%;
 }
 
 .form-button {
-  margin-left: 10px;
   background-color: #304d30;
-  color: #fff;
   border: none;
-  width: 150px;
-  font-size: 16px;
   border-radius: 50px;
+  color: #fff;
+  font-size: 16px;
+  margin-left: 10px;
   padding: 14px 24px;
   transition: 0.3s;
+  width: 150px;
 }
 
 .form-button:hover {
-  cursor: pointer;
   background-color: #223522;
+  cursor: pointer;
 }
 
 .hide-element {
@@ -107,19 +107,19 @@ form {
 }
 
 .recipes {
-  font-size: 16px;
-  color: #272044;
   background-color: #fbfbefdb;
-  padding: 20px;
+  border-left: 3px solid #304d30;
+  border-radius: 0 15px 15px 0;
+  color: #272044;
+  font-size: 16px;
+  font-family: "Lora", serif;
   margin-bottom: 20px;
   line-height: 2;
-  border-left: 3px solid #304d30;
-  font-family: "Lora", serif;
-  border-radius: 0 15px 15px 0;
+  padding: 20px;
 }
 
 footer {
-  text-align: center;
   font-size: 15px;
+  text-align: center;
   margin-top: 10px;
 }
